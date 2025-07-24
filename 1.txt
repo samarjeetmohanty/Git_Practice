@@ -1,0 +1,38 @@
+- Learning Git from basics
+
+-----------------------------------------------------------------------------------------------------
+
+Initial commands :
+
+git init : 
+- these command will make a new folder on your system and initialize it as git repo
+- these command add a .git (hidden) folder to the project.
+- one time per project
+
+git add filename.extension or (git add .)
+- will all files to the staging area
+
+git commit -m "Your message"
+- it is the way to save your changes on your repo.
+
+git push
+- code added in server
+
+git status 
+- will show the current state of your repo.
+
+-----------------------------------------------------------------------------------------------------
+- Usual Flow : 
+
+--> write --> add --> commit
+
+Complete Git flow : 
+
+git init (Repo) --> git add . (** staging area **) --> git commit --> git push
+
+Unstage changes :- git reset filename
+
+** What is Staging ?
+--> Staging is a way that tells git to track files, folders etc.
+
+
